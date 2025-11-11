@@ -1,0 +1,60 @@
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git config --global user.email "igor.m.neves6@aluno.senai.br"
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git config --global user.name "Igor Marcondes Neves"
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git commit -m "Primeiro git da alteração"
+On branch main
+nothing to commit, working tree clean
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git remote add origin https://github.com/igormneves6/PrimeiroGit.git
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Teste.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git add .
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Teste.txt
+
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git commit -m "Primeiro git da alteração"
+[main 68bd8f9] Primeiro git da alteração
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Teste.txt
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git remote add origin https://github.com/igormneves6/PrimeiroGit.git
+error: remote origin already exists.
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git branch -m main
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$
+
+
+fic@DESKTOP-E110GH4 MINGW64 ~/Desktop/PrimeiroGit (main)
+$ git branch -m main
+
